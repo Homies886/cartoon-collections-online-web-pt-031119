@@ -5,7 +5,7 @@ def roll_call_dwarves(dwarves)
 end
 
 def summon_captain_planet(calls)
-  new_calls = calls.map {|powers| puts "#{powers.capitalize}!"}
+  new_calls = calls.map {|powers| "#{powers.capitalize}!"}
   new_calls
 end
 
